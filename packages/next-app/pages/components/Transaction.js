@@ -100,7 +100,7 @@ export const Transaction = (props) =>  {
                 </Text>
                 <Text mt={"10px"}  pt={"20px"} textAlign={'center'}  color={"white"} fontWeight={"bold"}>
                 { parentArray !== null ? <>{parentArray.map((obj, index) => {
-                  return <h1>Param {index}: {obj}</h1>
+                  return <h1 key={index} >Param {index}: {obj}</h1>
                 })}</>: null }  
                 </Text>
                 </Box>

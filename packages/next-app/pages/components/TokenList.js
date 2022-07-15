@@ -41,7 +41,7 @@ function TokenList() {
         className=''
       >
         {Object.keys(chainlist).map((key) => (
-          <option value={chainlist[key].chainid}>
+          <option key={chainlist} value={chainlist[key].chainid}>
             {chainlist[key].symbol}
           </option>
         ))}

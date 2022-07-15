@@ -87,9 +87,9 @@ const MenuLinks = ({ isOpen }) => {
         direction={['column', 'row', 'row', 'row']}
         ml={'60px'}
       >
-        <MenuItem to={"/Hero"} children={"Home"}></MenuItem>
+        <MenuItem to={"/Hero"} ></MenuItem>
         
-        <MenuItem to={"/components/Swaps"} children={"Swap"}></MenuItem>
+        <MenuItem to={"/components/Swaps"} ></MenuItem>
         
         <MenuItem to="/signup" isLast>
           <Button
